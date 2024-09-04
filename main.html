@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Profile Page of Venkatesh">
+    <title>Venkatesh Profile</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="slide-in-header">
+        <h1>This is Venkatesh, a <span class="about-me"></span></h1>
+        <p>Welcome to my world!</p>
+    </header>
+
+    <section class="fade-in-section">
+        <h2>About Me</h2>
+        <p>Hello! I’m Venkatesh, and here’s a little info about me.</p>
+        <img src="venkatesh-.webp" alt="Venkatesh picture">
+    </section>
+    <hr>
+
+    <section class="fade-in-section">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>Full Stack Web Developer</li>
+            <li>Data Analyst</li>
+            <li>Python Developer</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="programming-languages">
+        <h2>Programming Languages</h2>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar" data-progress="60"></div>
+        </div>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress-bar" data-progress="90"></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress-bar" data-progress="80"></div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="fade-in-section">
+        <h2>Portfolio</h2>
+        <p>Take a look at some of my works.</p>
+        <p><a href="project_css.html">Project 1</a> | <a href="https://www.pantechsolutions.net/deep-learning-based-food-calorie-estimation-method-in-dietary-assessment">Project 2</a></p>
+    </section>
+    <hr>
+
+    <section class="fade-in-section">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            </div>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <hr>
+
+    <section class="fade-in-section">
+        <h2>Contact Information</h2>
+        <p>Let's connect!</p>
+        <a href="mailto:venkateshsai741@gmail.com" class="icon-link email-icon" aria-label="Email Venkatesh"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/ramesh-venkatesh-01818624b/" class="icon-link linkedin-icon" aria-label="Venkatesh's LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+    </section>
+    <hr>
+    
+    <footer>
+        <p>&copy; 2024 Venkatesh. Built by Venkatesh.</p>
+    </footer>
+
+    <div id="dark-mode-toggle" class="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+</body>
+</html>
